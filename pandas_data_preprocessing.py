@@ -138,6 +138,13 @@ print(df.fillna(method='ffill'))
 print(df.fillna(method='ffill', limit=2)) #limit은 채울 값의 수
 
 
+"""
+**통계적 수치를 통한 보간**
+
+#fillna()의 값에 mean()과 같은 통계적 수치를 전달하여, 조금 더 세밀한 접근이 가능
+#통계적 수치는 column 을 기준으로 계산됨. (자동으로)
+"""
+
 df.fillna(df.mean())
 
 df.fillna(df.max())
