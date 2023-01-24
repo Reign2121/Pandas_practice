@@ -1,5 +1,5 @@
 # Pandas_practice
 
-- preprocessing
+- preprocessing with pandas
 
-- merging
+- merging with pandas
